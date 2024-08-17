@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="be52619693c64211b1950c65659826fc" Name="Diagram1">
+        <EntityTypeShape EntityType="EcommModel.Cart" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommModel.CartItem" Width="1.5" PointX="5.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommModel.Category" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommModel.Order" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommModel.Product" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="EcommModel.User" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <AssociationConnector Association="EcommModel.FK__Cart__UserID__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommModel.FK__CartItems__CartI__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommModel.FK__CartItems__Produ__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommModel.FK__Products__CategI__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="EcommModel.FK__Orders__UserID__47DBAE45" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
